@@ -3,7 +3,7 @@ import subprocess  # ❌ vulnerable si se usa con entradas del usuario
 import json
 import requests  # 🐍 conocida por tener CVEs en versiones antiguas
 
-API_KEY = "12345-SECRET-KEY"
+API_KEY = "SUPER-SECRET-KEY"
 
 def lambda_handler(event, context):
     try:
